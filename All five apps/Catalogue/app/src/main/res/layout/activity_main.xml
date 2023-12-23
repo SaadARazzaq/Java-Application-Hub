@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Animal Gallery, swipe right and left to see the animal catalog"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/capybaraButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capybara"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onCapybaraButtonClick"/>
+
+    <Button
+        android:id="@+id/chinchillaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chinchilla"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"
+        android:onClick="onChinchillaButtonClick"/>
+
+    <Button
+        android:id="@+id/guineaPigButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guinea Pig"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"
+        android:onClick="onGuineaPigButtonClick"/>
+
+    <Button
+        android:id="@+id/marmotButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marmot"
+        android:background="@drawable/rounded_button"
+        android:onClick="onMarmotButtonClick"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Catalogue</string>
+
+    <string name="capybara_description">
+        The capybara (Hydrochoerus hydrochaeris) is the largest rodent in the world, native to South America.
+        It is a semi-aquatic mammal that is well-adapted to aquatic environments. Capybaras have a barrel-shaped body,
+        short head, and a cap-like face with front-facing eyes and nostrils. They have webbed feet and dense, coarse fur
+        that ranges in color from reddish-brown to grayish. Capybaras are social animals, forming groups called herds, and
+        they are known for their gentle and docile nature. They communicate through vocalizations, including barks, whistles,
+        and purrs. Capybaras are herbivores, primarily feeding on grasses, aquatic plants, and bark. They are excellent swimmers
+        and often submerge themselves in water to escape predators or regulate their body temperature. In the wild, capybaras
+        play a crucial role in maintaining ecosystem balance by grazing on vegetation and influencing plant growth.
+    </string>
+
+    <string name="chinchilla_description">
+        The chinchilla (Chinchilla lanigera) is a small rodent native to the Andes Mountains in South America.
+        Recognized for its soft and dense fur, chinchillas have a compact and robust body with large ears,
+        and their fur can vary in color from gray to beige. Chinchillas are crepuscular, meaning they are most active during
+        dawn and dusk. They have large, dark eyes and a well-developed sense of hearing. Chinchillas are social animals, and in
+        the wild, they live in colonies. As pets, chinchillas require special care, including dust baths to maintain their fur,
+        as well as a diet rich in fiber. They have a lifespan of up to 20 years in captivity and are known for their playful and
+        curious behavior. Chinchillas are herbivores, consuming a diet of hay, pellets, and fresh vegetables.
+    </string>
+
+    <string name="guinea_pig_description">
+        The guinea pig (Cavia porcellus), also known as cavy, is a domesticated rodent that originated from the Andes region
+        in South America. Guinea pigs have a compact body with a rounded head, short legs, and a short tail. They are social
+        and gentle animals, often kept as companions or pets. Guinea pigs communicate through various vocalizations, including
+        squeaks, purrs, and chattering sounds. They exhibit a wide range of behaviors, including popcorning, which involves
+        jumping and twisting in the air. Guinea pigs have a herbivorous diet, requiring fresh hay, vegetables, and vitamin C-rich
+        foods. They are known for their friendly and sociable nature, often forming strong bonds with their human caretakers.
+        Guinea pigs have a relatively long lifespan and can live up to seven years or more in captivity.
+    </string>
+
+    <string name="marmot_description">
+        The marmot is a large ground squirrel belonging to the genus Marmota. These rodents are primarily found in mountainous
+        regions and are known for their burrowing behavior. Marmots have a robust body with a short tail, strong claws, and
+        distinctive facial features. They are diurnal, meaning they are active during the day, and hibernate in burrows during
+        the winter months. Marmots use loud whistles as a form of communication, alerting others to potential threats. They are
+        herbivores, feeding on a diet of grasses, herbs, and vegetation. Marmots play a crucial role in alpine ecosystems by
+        influencing vegetation through their feeding habits and contributing to nutrient cycling. They are important prey species
+        for various predators, including birds of prey and carnivores. Marmots are highly adapted to life in high-altitude environments,
+        where they navigate rocky terrain and are well-suited for climbing and burrowing.
+    </string>
+
+    <string name="default_description">Default description for the animal.</string>
+
+    <string name="detail_activity_label">Detail Activity</string>
+</resources>

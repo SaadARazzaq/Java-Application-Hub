@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E0E0E0">
+
+    <!-- Title Label -->
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Countries and Cities"
+        android:textSize="26sp"
+        android:textColor="#800080"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Country Selection Label -->
+    <TextView
+        android:id="@+id/countryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a country you will enjoy to visit soon"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/titleLabel"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Country Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/countryRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countryLabel"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioSpain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spain"
+            android:textSize="23sp"
+            android:textColor="#FFA500"/>
+
+        <RadioButton
+            android:id="@+id/radioItaly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italy"
+            android:textSize="23sp"
+            android:textColor="#FFA500"
+            android:layout_marginStart="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioFrance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="France"
+            android:textSize="23sp"
+            android:textColor="#FFA500"
+            android:layout_marginStart="8dp"/>
+    </RadioGroup>
+
+    <!-- City Selection Label -->
+    <TextView
+        android:id="@+id/cityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a city you want to visit first"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/countryRadioGroup"
+        android:layout_marginTop="16dp"/>
+
+    <!-- City Spinner -->
+    <Spinner
+        android:id="@+id/citySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityLabel"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/citySpinner"
+        android:layout_marginTop="16dp"/>
+
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@id/submitButton"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
